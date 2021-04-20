@@ -46,7 +46,7 @@ class Timer { // Timer START
     }
     show();
   }
-  void alarm() {
+  void alarm() { // anything could be placed here
     tone(8,1000,1000);
   }
   void set(int8_t mins, int8_t secs) { // minutes and seconds setup function
